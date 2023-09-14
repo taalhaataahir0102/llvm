@@ -14,7 +14,7 @@ function Signup() {
     setActiveButton(taskNumber); // Update the active button
   };
 
-  const buttonLabels = Array.from({ length: 11 }, (_, index) => index + 1);
+  const buttonLabels = Array.from({ length: 12 }, (_, index) => index + 1);
 
   return (
     <div className="container">
